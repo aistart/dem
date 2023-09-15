@@ -26,9 +26,8 @@ h1, h2 {
 }
 
 p, ul {
-    color: #666;
+    color: #e70d0d;
     text-align: center;
-    max-width: 360px; /* 默认情况下，图片的最大宽度为90% */
 }
 
 a {
@@ -42,7 +41,7 @@ a:hover {
 
 /* 图片样式 */
 img {
-    width: 90%; /* 默认情况下，图片的最大宽度为90% */
+    max-width: 90%; /* 默认情况下，图片的最大宽度为90% */
     height: auto;
     border-radius: 8px;
     margin: 10px 0;
@@ -58,7 +57,11 @@ img {
         margin: 40px auto;
     }
     img {
-        width: 70%; /* 在大屏幕上，图片的最大宽度为70% */
+        max-width: 70%; /* 在大屏幕上，图片的最大宽度为70% */
+    }
+    p {
+        max-width: 70%;
+        margin: 10px auto;
     }
 }
 
