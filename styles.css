@@ -4,21 +4,29 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-header, nav, main, footer {
+.container {
+    max-width: 1200px;
+    width: 100%;
     margin: 20px;
     padding: 20px;
     background-color: #fff;
     border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 h1, h2 {
     color: #333;
+    text-align: center;
 }
 
-p {
+p, ul {
     color: #666;
+    text-align: center;
 }
 
 a {
@@ -36,6 +44,9 @@ img {
     height: auto;
     border-radius: 8px;
     margin: 10px 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* 导航样式 */
