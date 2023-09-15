@@ -56,6 +56,7 @@ img {
     .container {
         padding: 40px;
         margin: 40px auto;
+        width: 90%; /* 设置宽度为90%以提供更大的灵活性 */
     }
     img {
         width: 70%; /* 在大屏幕上，图片的最大宽度为70% */
