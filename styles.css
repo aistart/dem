@@ -41,7 +41,7 @@ a:hover {
 
 /* 图片样式 */
 img {
-    max-width: 80%; /* 设置图片的最大宽度为80% */
+    max-width: 90%; /* 默认情况下，图片的最大宽度为90% */
     height: auto;
     border-radius: 8px;
     margin: 10px 0;
@@ -55,6 +55,9 @@ img {
     .container {
         padding: 40px;
         margin: 40px auto;
+    }
+    img {
+        max-width: 70%; /* 在大屏幕上，图片的最大宽度为70% */
     }
 }
 
