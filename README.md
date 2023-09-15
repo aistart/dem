@@ -1,5 +1,8 @@
-# demo
-展示最基本的开源代码开发和托管页面，通过设置pages的http模板，下面是markdown的最基本使用方法
+# 本仓库的定位：demo 
+
+展示最基本的开源代码开发和托管页面，通过Setting-->Pages-->Source 的http模板publishing来展示。
+
+### 下面是markdown的最基本使用方法
 
 # 标题
 
